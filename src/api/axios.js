@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000/api', // or use your deployed backend URL
+  baseURL: 'https://job-board-backend-q170.onrender.com/api', 
   headers: {
     'Content-Type': 'application/json',
   },
